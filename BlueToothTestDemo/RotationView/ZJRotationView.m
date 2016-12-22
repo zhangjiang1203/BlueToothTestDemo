@@ -129,6 +129,8 @@
         cusButton.bounds = CGRectMake(0, 0, KButtonW, KButtonW);
         cusButton.layer.masksToBounds = YES;
         cusButton.layer.cornerRadius = KButtonW/2;
+        [cusButton setTitleColor:self.titleColor forState:UIControlStateNormal];
+        [cusButton setBackgroundColor:self.buttonBackColor];
         CGFloat num = (i + 0.5) * 1.0;
         cusButton.center = CGPointMake(x + r *cos(corner*num)+3, y + r * sin(corner*num)+3);
         cusButton.tag = i+1;
@@ -193,8 +195,22 @@
 
 -(NSInteger)fontSize{
     if (_fontSize == 0) {
-        _fontSize = 13;
+        _fontSize = 12;
     }
     return _fontSize;
+}
+
+-(UIColor *)titleColor{
+    if (!_titleColor) {
+        _titleColor = [UIColor whiteColor];
+    }
+    return _titleColor;
+}
+
+-(UIColor *)buttonBackColor{
+    if (!_buttonBackColor) {
+        _buttonBackColor = [UIColor clearColor];
+    }
+    return _buttonBackColor;
 }
 @end
