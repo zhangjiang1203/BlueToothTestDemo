@@ -16,6 +16,8 @@
 		CF27AF1F1E0A2AA3003E1F01 /* BlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27AF1E1E0A2AA3003E1F01 /* BlueToothViewController.m */; };
 		CFD5E0751E0B776E000AD373 /* ZJRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5E0741E0B776E000AD373 /* ZJRotationView.m */; };
 		CFD5E0791E0BAE5F000AD373 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5E0781E0BAE5F000AD373 /* RotationViewController.m */; };
+		CFD5E07B1E0BCD27000AD373 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CFD5E07A1E0BCD27000AD373 /* README.md */; };
+		CFD5E07D1E0BCF88000AD373 /* rotationGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CFD5E07C1E0BCF88000AD373 /* rotationGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CFD5E0741E0B776E000AD373 /* ZJRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRotationView.m; sourceTree = "<group>"; };
 		CFD5E0771E0BAE5F000AD373 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
 		CFD5E0781E0BAE5F000AD373 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		CFD5E07A1E0BCD27000AD373 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CFD5E07C1E0BCF88000AD373 /* rotationGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rotationGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				CF27AF0F1E0A14A9003E1F01 /* Main.storyboard */,
 				CF27AF121E0A14A9003E1F01 /* Assets.xcassets */,
 				CF27AF141E0A14A9003E1F01 /* LaunchScreen.storyboard */,
+				CFD5E07A1E0BCD27000AD373 /* README.md */,
+				CFD5E07C1E0BCF88000AD373 /* rotationGif.gif */,
 				CF27AF171E0A14A9003E1F01 /* Info.plist */,
 				CF27AF061E0A14A9003E1F01 /* Supporting Files */,
 				CF27AF1D1E0A2AA3003E1F01 /* BlueToothViewController.h */,
@@ -162,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF27AF161E0A14A9003E1F01 /* LaunchScreen.storyboard in Resources */,
+				CFD5E07D1E0BCF88000AD373 /* rotationGif.gif in Resources */,
 				CF27AF131E0A14A9003E1F01 /* Assets.xcassets in Resources */,
 				CF27AF111E0A14A9003E1F01 /* Main.storyboard in Resources */,
 			);
@@ -177,6 +184,7 @@
 				CFD5E0791E0BAE5F000AD373 /* RotationViewController.m in Sources */,
 				CF27AF0E1E0A14A9003E1F01 /* ViewController.m in Sources */,
 				CF27AF1F1E0A2AA3003E1F01 /* BlueToothViewController.m in Sources */,
+				CFD5E07B1E0BCD27000AD373 /* README.md in Sources */,
 				CF27AF0B1E0A14A9003E1F01 /* AppDelegate.m in Sources */,
 				CF27AF081E0A14A9003E1F01 /* main.m in Sources */,
 				CFD5E0751E0B776E000AD373 /* ZJRotationView.m in Sources */,
