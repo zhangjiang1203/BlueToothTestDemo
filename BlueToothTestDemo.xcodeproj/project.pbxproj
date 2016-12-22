@@ -13,6 +13,9 @@
 		CF27AF111E0A14A9003E1F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF27AF0F1E0A14A9003E1F01 /* Main.storyboard */; };
 		CF27AF131E0A14A9003E1F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF27AF121E0A14A9003E1F01 /* Assets.xcassets */; };
 		CF27AF161E0A14A9003E1F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF27AF141E0A14A9003E1F01 /* LaunchScreen.storyboard */; };
+		CF27AF1F1E0A2AA3003E1F01 /* BlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF27AF1E1E0A2AA3003E1F01 /* BlueToothViewController.m */; };
+		CFD5E0751E0B776E000AD373 /* ZJRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5E0741E0B776E000AD373 /* ZJRotationView.m */; };
+		CFD5E0791E0BAE5F000AD373 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5E0781E0BAE5F000AD373 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		CF27AF121E0A14A9003E1F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF27AF151E0A14A9003E1F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF27AF171E0A14A9003E1F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF27AF1D1E0A2AA3003E1F01 /* BlueToothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothViewController.h; sourceTree = "<group>"; };
+		CF27AF1E1E0A2AA3003E1F01 /* BlueToothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothViewController.m; sourceTree = "<group>"; };
+		CFD5E0731E0B776E000AD373 /* ZJRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRotationView.h; sourceTree = "<group>"; };
+		CFD5E0741E0B776E000AD373 /* ZJRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRotationView.m; sourceTree = "<group>"; };
+		CFD5E0771E0BAE5F000AD373 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		CFD5E0781E0BAE5F000AD373 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		CF27AF051E0A14A9003E1F01 /* BlueToothTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CFD5E0721E0B768A000AD373 /* RotationView */,
 				CF27AF091E0A14A9003E1F01 /* AppDelegate.h */,
 				CF27AF0A1E0A14A9003E1F01 /* AppDelegate.m */,
 				CF27AF0C1E0A14A9003E1F01 /* ViewController.h */,
@@ -67,6 +77,10 @@
 				CF27AF141E0A14A9003E1F01 /* LaunchScreen.storyboard */,
 				CF27AF171E0A14A9003E1F01 /* Info.plist */,
 				CF27AF061E0A14A9003E1F01 /* Supporting Files */,
+				CF27AF1D1E0A2AA3003E1F01 /* BlueToothViewController.h */,
+				CF27AF1E1E0A2AA3003E1F01 /* BlueToothViewController.m */,
+				CFD5E0771E0BAE5F000AD373 /* RotationViewController.h */,
+				CFD5E0781E0BAE5F000AD373 /* RotationViewController.m */,
 			);
 			path = BlueToothTestDemo;
 			sourceTree = "<group>";
@@ -77,6 +91,15 @@
 				CF27AF071E0A14A9003E1F01 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD5E0721E0B768A000AD373 /* RotationView */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5E0731E0B776E000AD373 /* ZJRotationView.h */,
+				CFD5E0741E0B776E000AD373 /* ZJRotationView.m */,
+			);
+			path = RotationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +133,7 @@
 				TargetAttributes = {
 					CF27AF021E0A14A5003E1F01 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = N3DR39B4G7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,9 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD5E0791E0BAE5F000AD373 /* RotationViewController.m in Sources */,
 				CF27AF0E1E0A14A9003E1F01 /* ViewController.m in Sources */,
+				CF27AF1F1E0A2AA3003E1F01 /* BlueToothViewController.m in Sources */,
 				CF27AF0B1E0A14A9003E1F01 /* AppDelegate.m in Sources */,
 				CF27AF081E0A14A9003E1F01 /* main.m in Sources */,
+				CFD5E0751E0B776E000AD373 /* ZJRotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3DR39B4G7;
 				INFOPLIST_FILE = BlueToothTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangjiang.BlueToothTestDemo;
@@ -281,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3DR39B4G7;
 				INFOPLIST_FILE = BlueToothTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangjiang.BlueToothTestDemo;
@@ -307,6 +336,7 @@
 				CF27AF1C1E0A14A9003E1F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
